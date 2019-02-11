@@ -67,9 +67,6 @@ export default {
     message: {
       type: String,
     },
-    errorMessage: {
-      type: String,
-    },
     validation: {
       type: String,
     },
@@ -80,10 +77,10 @@ export default {
   },
   computed: {
     isValid() {
-      return this.errors ? this.errors.first(this.name) === null : true;
+      return !this.errors.first(this.name);
     },
     messageOrError() {
-      return this.isValid ? this.message : this.errorMessage;
+      return this.isValid ? this.message : this.errors.first(this.name);
     },
     cssClasses() {
       const classes = [this.$style.vueInput];

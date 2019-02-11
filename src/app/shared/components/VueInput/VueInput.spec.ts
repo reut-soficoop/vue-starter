@@ -58,7 +58,6 @@ describe('VueInput.vue', () => {
         },
       },
       propsData: {
-        errorMessage: 'ERROR!',
         name: 'name',
         id: 'id',
       },

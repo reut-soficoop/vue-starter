@@ -54,7 +54,7 @@ story.add(
         model: '',
       };
     },
-    template: `<vue-input placeholder="Name" name="name" id="name" v-model="model" validation="required|integer" required message="please enter a number" errorMessage="This is not a number" />`,
+    template: `<vue-input placeholder="Name" name="name" id="name" v-model="model" validation="required|integer" required message="please enter a number" />`,
   })),
 );
 

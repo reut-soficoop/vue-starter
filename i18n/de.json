@@ -14,9 +14,11 @@
   "components.calendar.wednesday.short": "M",
   "components.cookieConsent.accept": "Accept",
   "components.dataTable.noResults": "No results found!",
-  "components.formExample.zipCode.error": "Please enter a Number",
   "components.pagination.next": "Next",
   "components.pagination.previous": "Previous",
   "components.truncate.showLess": "Show less",
-  "components.truncate.showMore": "Show more"
+  "components.truncate.showMore": "Show more",
+  "validations.messages._default": "{0} ist ungültig.",
+  "validations.messages.email": "{0} muss eine gültige E-Mail-Adresse sein.",
+  "validations.messages.numeric": "{0} darf nur numerische Zeichen enthalten."
 }

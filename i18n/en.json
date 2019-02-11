@@ -14,9 +14,11 @@
   "components.calendar.wednesday.short": "W",
   "components.cookieConsent.accept": "Accept",
   "components.dataTable.noResults": "No results found!",
-  "components.formExample.zipCode.error": "Please enter a Number",
   "components.pagination.next": "Next",
   "components.pagination.previous": "Previous",
   "components.truncate.showLess": "Show less",
-  "components.truncate.showMore": "Show more"
+  "components.truncate.showMore": "Show more",
+  "validations.messages._default": "The {0} value is not valid.",
+  "validations.messages.email": "The {0} field must be a valid email.",
+  "validations.messages.numeric": "The {0} field may only contain numeric characters."
 }

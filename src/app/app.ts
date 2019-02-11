@@ -11,7 +11,11 @@ import { IState } from './state';
 import App from './app/App/App.vue';
 import { HttpService } from './shared/services/HttpService/HttpService';
 
-Vue.use(VeeValidate, { inject: false, delay: 1 });
+/**
+ * see: https://github.com/baianat/vee-validate/blob/master/locale/en.js
+ * for translation keys. The translation key has to be prefixed with "validations.messages"
+ */
+Vue.use(VeeValidate, { inject: false, i18n, i18nRootKey: 'validations' });
 
 export interface IApp {
   app: Vue;
